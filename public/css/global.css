@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
 body{
     font-family:  "Courier New", Courier, monospace;
     text-align: justify;
@@ -25,3 +30,28 @@ div {
     text-align: justify;
     text-justify: inter-word;
   }
+
+  header{
+          background: blue;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    height: 90px;
+    color: white;
+  }
+
+  ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+       justify-content: space-around;
+}
+
+ul {
+        list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
