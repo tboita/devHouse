@@ -1,0 +1,27 @@
+body{
+    font-family:  "Courier New", Courier, monospace;
+    text-align: justify;
+    text-justify: inter-word;
+    }
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+} 
+h1 {
+    color: red;
+}
+ul {
+    list-style: none;
+}
+.icom-social{
+    width: 80px;
+}
+
+.icom-socia{
+    border-radius: 8px;
+}
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
+  }
