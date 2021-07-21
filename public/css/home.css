@@ -51,3 +51,32 @@ header {
     font-weight: bold;
     color: white;
 }
+
+@media(max-width: 800px){
+    .banner img {
+        display: none;
+    }
+
+    @media(max-width: 1200px){
+        .banner img {
+            display: block;
+        }
+
+        @media(max-width: 800px){
+            .banner img {
+                display: none;
+            }
+    
+#menu-mobile{
+    display: none;
+}
+
+            @media(max-width: 465px){
+                .header img {
+                    display: none;
+                }
+                @media(max-width: 465px){
+                    .nav {
+                        display: block;
+                    }
+            }
