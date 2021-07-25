@@ -80,3 +80,9 @@ header {
                         display: block;
                     }
             }
+            .menu a{
+                color:#3f3f6c;
+                margin-left: 50px;
+                text-decoration: none;
+                font-size: 22px;
+            }

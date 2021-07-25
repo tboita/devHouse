@@ -15,5 +15,10 @@ app.get("/", (req, res)=>{
         app.get("/blog", (req, res)=>{
             res.sendFile(__dirname + "/views/blog.html")
             });
+
+            app.get("/contato", (req, res)=>{
+                res.sendFile(__dirname + "/views/contato.html")
+                });
+       
    
 app.listen(3000, () => console.log("Tudo ok!"));
